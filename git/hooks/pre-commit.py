@@ -195,6 +195,9 @@ skip_content_patterns = [
     r"^(tools/OpenROAD/)?src/drt/src", # until cleaned up
     r"^(tools/OpenROAD/)?src/drt/cmake", # .../intel/vtune
     r"^(tools/OpenROAD/)?src/gpl/README.md$",
+    r"^(tools/OpenROAD/)?src/gpl/test/large0[1-2].def(ok)?$",
+    r"^(tools/OpenROAD/)?src/gpl/test/macro0[1-3].def(ok)?$",
+    r"^(tools/OpenROAD/)?src/gpl/test/medium0[1-6].def(ok)?$",
     r"^(tools/OpenROAD/)?src/syn/BUILD$",
     r"^(tools/OpenROAD/)?src/syn/src/CMakeLists.txt$",
     r"^(tools/OpenROAD/)?src/syn/src/synthesis.cpp$",
@@ -253,46 +256,6 @@ md5_whitelist = set((
     '4a36906520787cf238738a3cb6f46504', # src/rcx/test/generate_pattern.defok
     '303c92cc0ec313c0630d84f94313f6ac', # src/rcx/test/generate_pattern.vok (old)
     '119372cf939e41b7ddf24fb5758a750d', # src/rcx/test/generate_pattern.vok
-    'e9e4daefed9083224832fbe262d0ea5d', # src/gpl/test/macro03.def
-    # old
-    'a18ab004e747067cfd2a3569becb9799', # src/gpl/test/large01.defok
-    'd80867b517b2448febf60860bf663374', # src/gpl/test/large01.defok
-    '1129d48daf4119864762d3afae44700c', # src/gpl/test/large01.def
-    '34176aa8aa0dac9e2ec35dc0adf21111', # src/gpl/test/large02.defok
-    'f66e8a49010debd35833f159dad1d5c8', # src/gpl/test/large02.defok
-    '8ce7ee36cde5a01fca6b800a4090c5dc', # src/gpl/test/large02.def
-    '5271a85ed1a4a7eaaf7b6a582a4b9303', # src/gpl/test/medium03.defok
-    'b49d16b2ca57c7dfe2e690bf1b4c0d57', # src/gpl/test/medium03.defok
-    '965c8a3c3b424708583d48ee1f9ad931', # src/gpl/test/medium03.def
-    '6725a64db47a2c4f3a9eba59c149ef66', # src/gpl/test/medium04.def
-    '988deaa7d5f05ea628b62c7f19791b0a', # src/gpl/test/medium04.defok
-    'be58f86f1b0698cb134dd6801629c137', # src/gpl/test/medium04.defok
-    '13bd6497ece4785e873ff699eef79f41', # src/gpl/test/medium04.defok
-    # updated
-    '48092fdbd5e37998adaef2115871a98a', # src/gpl/test/large01.defok
-    '9ec56d19ec70f5574c77d0f6c306ded1', # src/gpl/test/large01.defok (newer)
-    '89c746fad8d8be15d8be15af595cd981', # src/gpl/test/large01.defok (newer2)
-    '6ae28882bbb78f96312bca05c96639b3', # src/gpl/test/large01.defok (newer3)
-    'b03c45859946dcdf44f1ab859c7b9329', # src/gpl/test/large01.defok (newer4)
-    '803e39ece590ff65a51be859ac1e9e8f', # src/gpl/test/large01.defok (newer5)
-    '02f47f3b32749a009a32d912baf4bd4c', # src/gpl/test/large02.defok
-    '61bc5fe661f07ec1916bec73174d8352', # src/gpl/test/large02.defok (newer)
-    'ca9aa1d30e266785d6eaf479210efb08', # src/gpl/test/large02.defok (newer2)
-    'f9bb7af46c650ba0526edbd232a13990', # src/gpl/test/large02.defok (newer3)
-    '09257ba6e33c04bfa26b82c21e6a7d81', # src/gpl/test/large02.defok (newer4)
-    '6b096ad64ff5d9abd439cf1e0fb5d647', # src/gpl/test/macro03.defok
-    '95fa4b1e2e9c42988c686d65dccefa64', # src/gpl/test/macro03.defok
-    'c620676d83b1471dfd0c4f81d75cdf57', # src/gpl/test/macro03.defok (newer)
-    '7fcd444afa171027a2173fdb47eb559e', # src/gpl/test/macro03.defok (newer2)
-    '2e5be9a1cf1825a09154f7468e049f5d', # src/gpl/test/macro03.defok (newer3)
-    'c1997dcf02807f3f73be35106fbd6de5', # src/gpl/test/medium03.defok
-    'ef74164a008f3750d39096d2eadc0265', # src/gpl/test/medium03.defok (newer)
-    '9cef2a9568d6b19a4d6f55ea190e75eb', # src/gpl/test/medium03.defok (newer2)
-    '365fb4b84cf6ff9bbb96ce24270ad008', # src/gpl/test/medium04.defok
-    '9a16d85d525202df02bece2e47df6deb', # src/gpl/test/medium04.defok (newer)
-    'be58f86f1b0698cb134dd6801629c137', # src/gpl/test/medium04.defok (newer2)
-    '073e69cd9b1b6d06441683b0f62643fb', # src/gpl/test/medium04.defok (newer3)
-
     '35ddd551d88d1e491c939c6fc551e625', # src/par/examples/embedding-aware-partitioning/sparcT1_chip2.hgr
     'bc2394711bc7c8266d24e6bb43a0c061', # src/par/examples/timing-aware-partitioning/ariane.v
 
