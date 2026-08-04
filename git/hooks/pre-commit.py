@@ -214,6 +214,7 @@ skip_content_patterns = [
     r"^(flow/platforms/)?sky130hd/chameleon",
     r"^(flow/designs/)?sky130hd/chameleon",
     r"^tools/yosys/",
+    r"^tools/FakeRAM2.0/utils/verilog_exporter.py",
     r"^\.git/",
     r"^build_openroad.sh$",
     r"^docker/Dockerfile.builder$",
