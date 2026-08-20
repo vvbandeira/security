@@ -566,7 +566,9 @@ def main(args):
     # Get status of the staged files
     lines = run_command('git diff --cached --name-status')
     if len(lines[0]) == 0:
-        sys.exit('ERROR: Nothing is staged')
+        # print instead of exit to allow git commit --amend
+        print('Nothing staged, nothing to scan')
+        return
 
     # Split the lines in status & file.  Filenames containing whitespace
     # are problematic so don't do that.
