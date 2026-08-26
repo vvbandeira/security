@@ -125,6 +125,7 @@ allowed_path_patterns = [
     r"^(tools/OpenROAD/)?src/syn/src/flow",
     r"^(tools/OpenROAD/)?src/syn/test",
     r"^(tools/OpenROAD/)?src/tap/test",
+    r"^(tools/OpenROAD/)?src/tst/test",
     r"^(tools/OpenROAD/)?src/upf/test",
     r"^(tools/OpenROAD/)?src/web/test",
     r"^(tools/OpenROAD/)?test",
