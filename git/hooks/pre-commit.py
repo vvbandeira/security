@@ -128,6 +128,7 @@ allowed_path_patterns = [
     r"^(tools/OpenROAD/)?src/tst/test",
     r"^(tools/OpenROAD/)?src/upf/test",
     r"^(tools/OpenROAD/)?src/web/test",
+    r"^(tools/OpenROAD/)?src/wmk/test",
     r"^(tools/OpenROAD/)?test",
     r"^(tools/OpenROAD/)?third-party/abc",
     r"^(tools/OpenROAD/)?third-party/slang-elab",
